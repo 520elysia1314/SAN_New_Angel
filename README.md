@@ -34,4 +34,39 @@ DAY2∽DAY7（11.2∽11.7）的开发日记（因为网络连接抽风，导致�
 
 <img width="873" height="1920" alt="f4c66ff1e7821b4cdfb2f907fb3a0f1e" src="https://github.com/user-attachments/assets/a1623b53-fc8d-42a1-b157-cc5aeef977ca" />
 
+# SAN NEW ANGEL - Devlog
+
+## 🗓️ 2026-11-08 (Day 8：底层逻辑重构与核心控制流)
+
+### 🧠 编程理论大突破
+今天继续进行底层逻辑的深入学习，并整理了硬核手写笔记：
+- **布尔值（Boolean）与逻辑判断**：
+  - 深入理解了 `True` 和 `False` 的本质。
+  - 掌握了 `and`（必须全真）与 `or`（一真即真）的区别，并理解了逻辑判断中的“短路效应”。
+- **选择结构（if / elif / else）**：
+  - 明确了 `elif` 作为“插队/分支”的概念，用于处理多条件判断。
+  - **核心机制**：一旦某个条件满足（如 `if` 或某个 `elif` 通过），程序将立刻跳出当前判断块，绝对不再执行下方其他分支。
+- **循环结构（while）**：
+  - `while` 是“当条件成立时一直执行”。
+  - 极其凶险！如果忘记在内部改变条件（如 `count += 1`），会触发“死循环（Deadlock）”，导致程序卡死、控制台疯狂刷屏。
+
+### 💻 引擎实战与惨痛踩坑
+- **生命周期与返回值**：再次巩固了 `_ready()`（单次触发）和 `_process()`（循环触发）的区别；彻底搞懂了 `-> void`（只执行不返回）的含义，理清了 `void`（类型）与 `_ready`（函数名）毫无捆绑关系。
+- **实战测试**：在测试 `if 4 == 4 or 10 > 11:` 时遇到“无输出”现象，排查后发现是场景树主节点（Node2D）与脚本挂载不匹配导致。
+- **💥 玄学卡顿（血的教训）**：在测试布尔值时，因手滑误触了某些未知操作，导致 Godot 引擎当场“发癫”，陷入极其严重的疯狂卡顿（未响应状态）。最终只能无奈呼出任务管理器强杀进程才得以脱险。**总结教训：严格区分 F5（运行整个项目主场景）与 F6（单独运行当前场景），千万别在深夜乱点未知面板！**
+
+### 🎨 美术进展
+- **像素画练习**：在手机端 `Pixel Studio` 进行了长时间临摹练习，成功绘制出一个具备光影细节的“深色玻璃药剂瓶”。
+- **数据记录**：累计绘画时长突破 4 小时，总点击量逼近 2 万次，控笔精细度显著提升。
+
+---
+*Stay hungry, stay foolish. 明天继续攻克节点绑定与实例化。*
+<img width="1280" height="960" alt="06071b01a9b91744fad3be702710ab65_720" src="https://github.com/user-attachments/assets/06a8b5fe-4079-45ec-b3ab-934df092a03f" />
+<img width="1280" height="960" alt="281169777a171b96c245ce11617ba641_720" src="https://github.com/user-attachments/assets/2e611562-f749-47d6-b707-4e4c987cad7d" />
+<img width="1280" height="582" alt="79fe0a69459968f75afafdf32214007e_720" src="https://github.com/user-attachments/assets/e7fc6896-5fe7-49b4-b098-f7de401021b7" />
+<img width="1280" height="960" alt="2fbcb53dd11529fd719b6e0a46713fa0_720" src="https://github.com/user-attachments/assets/d22a8e04-84a6-447f-8188-6784a4d3674d" />
+<img width="1280" height="960" alt="5ca5a865b611615d708a9cc9db9b5107_720" src="https://github.com/user-attachments/assets/be3d1a05-6fd8-4c15-b127-1ea0692e59de" />
+
+<img width="873" height="1920" alt="aacdbfaf3e765363a7bae2b3a06d2b79_720" src="https://github.com/user-attachments/assets/ca45ed32-a588-43e7-ad35-6d5ee8910efc" />
+
 
