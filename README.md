@@ -95,20 +95,14 @@ DAY2∽DAY7（11.2∽11.7）的开发日记（因为网络连接抽风，导致�
 
 ---
 *Stay hungry, stay foolish. 承认疑惑，也是解决 Bug 的第一步。*
-因你而存在的致爱♪: 11-09 22:42:03
-<img src="file://C:\Users\孟乐\Documents\Tencent Files\3983349379\nt_qq\nt_data\Pic\2026-11\Ori\f1cc224945278c89eaa21a5af8807043.jpg" />
 
-因你而存在的致爱♪: 11-09 22:42:03
-<img src="file://C:\Users\孟乐\Documents\Tencent Files\3983349379\nt_qq\nt_data\Pic\2026-11\Thumb\c91f8b8ed26bf13f9520d4e3c7f36712_720.jpg" />
+<img width="1280" height="960" alt="c91f8b8ed26bf13f9520d4e3c7f36712_720" src="https://github.com/user-attachments/assets/bfcb1cb1-508b-4335-af2b-03a3a68d4af5" />
 
-因你而存在的致爱♪: 11-09 22:42:04
-<img src="file://C:\Users\孟乐\Documents\Tencent Files\3983349379\nt_qq\nt_data\Pic\2026-11\Thumb\d3b9bde8ce5aa7be1b9b2c9de75fd5d6_720.jpg" />
+<img width="1280" height="960" alt="d3b9bde8ce5aa7be1b9b2c9de75fd5d6_720" src="https://github.com/user-attachments/assets/8b9609d9-a522-4216-87d0-d01a8a0f161e" />
 
-因你而存在的致爱♪: 11-09 22:42:04
-<img src="file://C:\Users\孟乐\Documents\Tencent Files\3983349379\nt_qq\nt_data\Pic\2026-11\Thumb\defe07fbbc91f1a0d154c75de89425ce_720.jpg" />
+<img width="873" height="1920" alt="f1cc224945278c89eaa21a5af8807043" src="https://github.com/user-attachments/assets/800d0ed7-b9b3-4721-8151-a4062a05dfb4" />
 
-因你而存在的致爱♪: 11-09 22:42:05
-<img src="file://C:\Users\孟乐\Documents\Tencent Files\3983349379\nt_qq\nt_data\Pic\2026-11\Thumb\63243d68a6c4e44c4990db6456bd1920_720.jpg" />
+<img width="873" height="1920" alt="63243d68a6c4e44c4990db6456bd1920_720" src="https://github.com/user-attachments/assets/7032e600-73fd-4eb8-b501-957f51054f3a" />
 
-因你而存在的致爱♪: 11-09 22:42:05
-<img src="file://C:\Users\孟乐\Documents\Tencent Files\3983349379\nt_qq\nt_data\Pic\2026-11\Thumb\a312a0ab3b86528d7b7ee3ccf33b051b_720.jpg" />
+<img width="1280" height="582" alt="a312a0ab3b86528d7b7ee3ccf33b051b_720" src="https://github.com/user-attachments/assets/8dbb40e5-7633-405e-83a9-49666412d41b" />
+
