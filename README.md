@@ -69,4 +69,46 @@ DAY2∽DAY7（11.2∽11.7）的开发日记（因为网络连接抽风，导致�
 
 <img width="873" height="1920" alt="aacdbfaf3e765363a7bae2b3a06d2b79_720" src="https://github.com/user-attachments/assets/ca45ed32-a588-43e7-ad35-6d5ee8910efc" />
 
+# SAN NEW ANGEL - Devlog
 
+## 🗓️ 2026-11-09 (Day 9：底层控制流与像素武器设计)
+
+今日受外部行程（跨区聚餐）影响，大块代码实战时间被压缩，但在碎片时间依然保持了底层理论的学习与美术资产的产出。
+
+### 🧠 编程理论大突破（控制流与核心语法）
+通过系统整理手写笔记，开始深入理解以下几个核心概念：
+- **`+=` 累加机制**：理解了其本质为 `自身 = 自身 + 新增值`。常用于血量恢复（`hp += 20`）或持续位移。
+- **坐标轴与正负方向**：明确了 `direction = 1`（向右）与 `direction = -1`（向左）的物理意义。
+- **`var` 与 `func` 的本质区别**：
+  - `var`（变量）：定义“名词”。用于存放数据（如 HP、速度），状态是静态的，等待被赋值。
+  - `func`（函数）：定义“动词”。用于封装动作（如攻击、移动），只有被调用时才会执行。
+- **`pass` 关键字**：明确其为“占位符”。在语法要求必须有缩进但暂未想好逻辑时使用，本身不产生实际效果，但可避免程序报错。
+
+### 💻 引擎实战与疑惑
+- **节点路径获取**：学习了使用 `$` 符号（如 `$Icon`）快速获取当前场景下的子节点。
+- **一个小疑惑**：在测试 `_process` 让图标移动时，遭遇 `Node not found: "Icon"`。重新创建节点并严格统一命名后，依然没有看到预期中的移动效果。虽然检查了代码逻辑没问题，但最终还是因为时间太晚没排查出来。留待明天重新梳理场景树结构再战。
+
+### 🎨 美术进度（Pixel Studio）
+- **素材产出**：完成了多张像素素材练习（深色药剂瓶、透明水杯等）。
+- **核心设计**：构思并绘制了一把“紫（暗影）、蓝（冰）、红（火）”配色的元素剑。初步定位于B地区变异小怪的专属武器。
+- **美术数据**：累计绘画时长突破 5 小时，点击量逼近 2.6 万次。
+
+---
+*Stay hungry, stay foolish. 承认疑惑，也是解决 Bug 的第一步。*
+因你而存在的致爱♪: 11-09 22:42:03
+<img src="file://C:\Users\孟乐\Documents\Tencent Files\3983349379\nt_qq\nt_data\Pic\2026-11\Ori\f1cc224945278c89eaa21a5af8807043.jpg" />
+
+因你而存在的致爱♪: 11-09 22:42:03
+<img src="file://C:\Users\孟乐\Documents\Tencent Files\3983349379\nt_qq\nt_data\Pic\2026-11\Thumb\c91f8b8ed26bf13f9520d4e3c7f36712_720.jpg" />
+
+因你而存在的致爱♪: 11-09 22:42:04
+<img src="file://C:\Users\孟乐\Documents\Tencent Files\3983349379\nt_qq\nt_data\Pic\2026-11\Thumb\d3b9bde8ce5aa7be1b9b2c9de75fd5d6_720.jpg" />
+
+因你而存在的致爱♪: 11-09 22:42:04
+<img src="file://C:\Users\孟乐\Documents\Tencent Files\3983349379\nt_qq\nt_data\Pic\2026-11\Thumb\defe07fbbc91f1a0d154c75de89425ce_720.jpg" />
+
+因你而存在的致爱♪: 11-09 22:42:05
+<img src="file://C:\Users\孟乐\Documents\Tencent Files\3983349379\nt_qq\nt_data\Pic\2026-11\Thumb\63243d68a6c4e44c4990db6456bd1920_720.jpg" />
+
+因你而存在的致爱♪: 11-09 22:42:05
+<img src="file://C:\Users\孟乐\Documents\Tencent Files\3983349379\nt_qq\nt_data\Pic\2026-11\Thumb\a312a0ab3b86528d7b7ee3ccf33b051b_720.jpg" />
