@@ -106,3 +106,28 @@ DAY2∽DAY7（11.2∽11.7）的开发日记（因为网络连接抽风，导致�
 
 <img width="1280" height="582" alt="a312a0ab3b86528d7b7ee3ccf33b051b_720" src="https://github.com/user-attachments/assets/8dbb40e5-7633-405e-83a9-49666412d41b" />
 
+# SAN NEW ANGEL - Devlog
+
+## 🗓️ 2026-11-10 (Day 10：环境排雷与美术场景初探)
+
+今日经历了较为强烈的“开发阵痛期”，连续经历两次踩雷，影响了部分进度，但也完成了美术上的新尝试。
+
+### 💻 引擎实战与排坑
+- **第一次踩雷（脚本挂载死胡同）**：在跟随教程尝试为节点附加脚本时，多次遭遇“附加失败”与空脚本报错。经过复盘，意识到是 Godot 的默认路径与节点继承关系发生了冲突，决定明日新建纯净工程重新测试。
+- **第二次踩雷（社区交流与学习）**：在技术群交流时，被群员安利了 GDS 基础视频教程。由于当天时间太晚，未能一口气看完，决定明日继续学习。
+
+### 🧠 编程理论
+- 重新看了精简版 GDS 视频教程，巩固了核心基础语法。
+
+### 🎨 美术进度（Pixel Studio）
+- **场景绘制尝试**：尝试给地图绘制部分场景，但在模仿学习的过程中未能达到预期效果，产出了半成品。
+- **素材产出**：绘制了一枚具有通透质感的蓝色冰系圆球。虽然中途手滑，冰球疑似被画成了保龄球，但光影效果尚可。初步设定为具有冰冻/物理砸击属性的道具。
+
+---
+*Stay hungry, stay foolish. 允许自己偶尔卡壳，因为这是解决 Bug 的必经之路。*
+<img width="1280" height="960" alt="94c0f19630968410b15433da847f25dd_720" src="https://github.com/user-attachments/assets/8514a105-f477-4188-9688-76c20bbcc553" />
+<img width="1200" height="11527" alt="aca5550b6e635c27efc8e13aac53d20b_720" src="https://github.com/user-attachments/assets/2d2298da-e85e-4d5f-b70e-f7bff96676ed" />
+<img width="1280" height="960" alt="7c865d2e1296720ae2e35f2fceff30d9_720" src="https://github.com/user-attachments/assets/323f9a05-8141-4eca-8b9c-d87c56246f33" />
+<img width="1280" height="960" alt="3d3cc31cc1570fb66f767993d31c71df_720" src="https://github.com/user-attachments/assets/24355082-aacc-4c76-8e2f-87ae2e9b5667" />
+<img width="873" height="1920" alt="91291a1cd4d7d2198c60940768a94e51_720" src="https://github.com/user-attachments/assets/2b7ea670-185f-4113-bb10-82e880946150" />
+
