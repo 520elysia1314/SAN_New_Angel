@@ -146,3 +146,54 @@ DAY2∽DAY7（11.2∽11.7）的开发日记（因为网络连接抽风，导致�
 
 ---
 *Stay hungry, stay foolish. 允许自己慢下来，也是一种修行。*
+# SAN NEW ANGEL - Devlog
+
+## 🗓️ 2026-11-12 (Day 12：破而后立与代码运行的罗生门)
+
+今日是充满波折与顿悟的一天。在经历了项目环境崩溃、群友的技术指导以及漫长的排查后，终于完成了核心逻辑的初步跑通。
+
+### 🎨 美术进度
+- 完成了新的像素素材绘制，进一步丰富了游戏的美术资产库。
+
+### 💻 引擎实战与排错记录
+因旧项目遗留的无数报错与节点冲突，今晚痛定思痛，**彻底删除了旧工程，从零新建了纯净项目。**
+
+但在测试基础的节点移动逻辑时，遭遇了极其经典的“新手罗生门”：
+1. **求助社区**：咨询了其他社区开发者后，有一位大佬看了代码，觉得逻辑本身没有任何问题。
+2. **玄学卡壳**：但问题是，程序就是死活跑不起来，画面毫无反应。
+3. **我的推断**：我目前的推断是，因为我是跟着 UP 主的视频教程敲代码，但由于我们双方的软件操作（如节点树层级、脚本挂载对象等）存在细微区别，导致我新填入的代码运行失败了。
+4. **最终破局**：经过反复对照排查，修正了脚本挂载的位置与运行逻辑，最终成功让节点在屏幕上动了起来。
+
+### 💡 开发者心语
+今天深刻体会到了独立开发中“环境清理”与“有效求助”的重要性。从无数次“死活动不了”的自我怀疑，到最后亲眼看着程序跑通，踩过的坑都是宝贵的经验。代码是不会骗人的，跑不通只是因为哪里没对齐。
+
+---
+*Stay hungry, stay foolish. 踩过的坑，终将变成塑造世界的地基。*
+<img width="1200" height="11486" alt="2e3f7dddb3ead1cceaa2a3017a24b436_720" src="https://github.com/user-attachments/assets/2c9b2727-0e6e-4a46-a8d1-83e5b46e2fb7" />
+<img width="1200" height="11591" alt="ab8652717dde33293e3070293d596361_720" src="https://github.com/user-attachments/assets/8ddbd445-fedf-43ce-9aad-5c849a4d4384" />
+<img width="1200" height="11444" alt="4e575129270952106f544e3026ff9379_720" src="https://github.com/user-attachments/assets/60c6249f-1c0e-4778-9e49-5f7ed47bb7fe" />
+<img width="1200" height="11700" alt="e7c4811008969fb4f59831ee9f415299_720" src="https://github.com/user-attachments/assets/cd810471-9e3f-45b2-ac3f-b2c8d7a653bf" />
+<img width="1200" height="11527" alt="693b0ec58d6c05232d18d248948785a6_720" src="https://github.com/user-attachments/assets/8d8ea555-c85c-4fdb-99f6-2e86ca47e216" />
+<img width="1200" height="11509" alt="4aaf78b1c920b655b6959161b8a02c56_720" src="https://github.com/user-attachments/assets/342538a8-7c88-4b4e-9d22-aae1536016ea" />
+<img width="1200" height="11609" alt="1eaa7d99b985715c17756feea1aada78_720" src="https://github.com/user-attachments/assets/b5fe85d1-204a-47bc-98e0-36fff6835997" />
+<img width="873" height="1920" alt="652b2e1c25b9a8d93953136048457d35_720" src="https://github.com/user-attachments/assets/8fe65945-8694-454a-bd31-773787ac100c" />
+
+<img width="1280" height="960" alt="5b30134ca153dc774245eb964be1251f_720" src="https://github.com/user-attachments/assets/742d9974-e360-438c-880d-84d0a4019d30" />
+
+<img width="1280" height="1707" alt="8ab61c1105d29677a1a93d8f6daffe6e_720" src="https://github.com/user-attachments/assets/fe2adf4f-32ba-4cdf-8785-9e9e9f5e935e" />
+
+<img width="1280" height="1707" alt="9c4ae10b5c40e7c3145f5c212c7af53b_720" src="https://github.com/user-attachments/assets/f1c8ca66-9270-4a6e-bca8-b38d25e5fe45" />
+<img width="1280" height="960" alt="4084fdf71bae22c0aa81722a5b09dd54_720" src="https://github.com/user-attachments/assets/7f95ca8b-0ef4-475c-ab0c-5508a0ccf791" />
+<img width="1280" height="960" alt="13ac32415e0e73d2cf8559f5bfc58822_720" src="https://github.com/user-attachments/assets/54a2a95b-d32a-477a-9433-30238115fa9e" />
+
+<img width="873" height="1920" alt="424f2834969c9c66fe1ca68ae87e2e77_720" src="https://github.com/user-attachments/assets/01872467-5719-4ac2-8bf0-e40b34132763" />
+
+<img width="873" height="1920" alt="42ac9d379938398fd3e0c8551ab4355c" src="https://github.com/user-attachments/assets/c7f19993-7898-4e93-8762-c8f885814e1e" />
+
+<img width="1280" height="960" alt="2393918eaf2e3333b6cc6285b3bd257c_720" src="https://github.com/user-attachments/assets/7b8fac10-cf67-42c8-bcc3-ea4c14645c42" />
+
+
+
+
+
+
