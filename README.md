@@ -192,7 +192,46 @@ DAY2∽DAY7（11.2∽11.7）的开发日记（因为网络连接抽风，导致�
 
 <img width="1280" height="960" alt="2393918eaf2e3333b6cc6285b3bd257c_720" src="https://github.com/user-attachments/assets/7b8fac10-cf67-42c8-bcc3-ea4c14645c42" />
 
+# SAN NEW ANGEL - Devlog
 
+## 🗓️ 2026-11-13 (Day 13：环境排雷与基础逻辑初探)
+
+今日整体开发进度较小。白天及傍晚因处理部分个人事务，以及遭遇电脑系统级弹窗报错等突发情况，导致原定的开发时间被大幅压缩。
+
+### 🎨 美术进度
+- 对前期绘制的部分像素资产进行了细节优化，增加描边与高光，提升了整体的立体感与视觉质感。
+
+### 💻 引擎实战与逻辑突破
+1. **坐标与基础移动**：深入理解了二维坐标轴的概念，并成功通过代码让精灵节点在 X 轴与 Y 轴上同时进行移动，实现了斜向位移。
+2. **条件判断（if）初探**：开始尝试在 `_process` 中加入 `if` 条件判断语句（如判断 X 坐标是否大于等于屏幕宽度），试图实现边界检测与坐标重置的循环逻辑。
+
+### 🚑 踩坑复盘
+在编写条件判断代码时，再次遭遇了经典的报错组合拳：
+- 标点符号错误：误使用了中文全角冒号，导致语法解析失败。
+- 层级缩进错误：`if` 语句下方的执行代码没有正确缩进，导致引擎报错 `Expected indented block`。最终通过严格排查缩进层级，修回了代码。
+
+### 💡 开发者心语
+现实环境中的杂事是开发路上极大的阻力。虽然今日代码推进幅度有限，但夯实了 `if` 判断和缩进层级的基础逻辑。每天进步一点点，保持手感。
+
+---
+*Stay hungry, stay foolish. 踩过的坑，终将变成塑造世界的地基。*
+<img width="1280" height="960" alt="f5b1cb8e02e8fd301efe85e82da557ff_720" src="https://github.com/user-attachments/assets/40875ff9-92b6-4a00-adf9-9054baa7397e" />
+
+<img width="1280" height="960" alt="4de151113ae6df4f0a81bfe10ef47627_720" src="https://github.com/user-attachments/assets/2dc5d415-6d71-49f9-9b76-25b7efcfd9f7" />
+
+
+<img width="1280" height="1707" alt="f2d7315027e3b4fe7cd91b501dc7a9c3_720" src="https://github.com/user-attachments/assets/cdf8d379-c1ae-4817-88a2-a0f9e9cf7665" />
+
+<img width="1280" height="1707" alt="b9606ef82773b7c926da4f57e9808f96_720" src="https://github.com/user-attachments/assets/69bcfc86-6e9b-4fcb-8657-f135519b686e" />
+
+
+<img width="1280" height="1707" alt="8428e693af07e2444fe5094a4c2695ac_720" src="https://github.com/user-attachments/assets/5aa07686-2ef3-498f-aaf5-5c5588d07ac0" />
+
+<img width="873" height="1920" alt="c43fd12d9564f0cf9f6b13ba7d12eb04_720" src="https://github.com/user-attachments/assets/2daa685f-3df9-4c35-befa-ef2eb12fcef8" />
+
+<img width="873" height="1920" alt="62cb255a27cf8c3ce928f31471da68f9_720" src="https://github.com/user-attachments/assets/56bafa8b-a4a6-4d2d-a848-b18d0850b574" />
+
+<img width="1920" height="1920" alt="3bcc733dfbd9a5d9ba804f10d0157bde" src="https://github.com/user-attachments/assets/dac56cb8-e775-43b0-b201-d5a93e6b694f" />
 
 
 
